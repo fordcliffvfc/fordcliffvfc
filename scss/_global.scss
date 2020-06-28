@@ -1,6 +1,6 @@
 body {
   @include body-font;
-  background-image: linear-gradient(rgba(47,23,15,.35),rgba(47,23,15,.35)),url(../img/bg.jpg);
+  background-image: linear-gradient(rgba(47,23,15,.35),rgba(47,23,15,.35)),url(../img/bg_small.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -94,5 +94,13 @@ p {
     .section-heading-lower {
       font-size: 3rem;
     }
+  }
+
+  body {
+    @include body-font;
+    background-image: linear-gradient(rgba(47,23,15,.35),rgba(47,23,15,.35)),url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
   }
 }
