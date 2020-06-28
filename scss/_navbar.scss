@@ -3,6 +3,7 @@
   @include heading-font;
   .navbar-brand {
     color: $primary;
+    white-space: normal;
   }
   .navbar-nav {
     .nav-item {
